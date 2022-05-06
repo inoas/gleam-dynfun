@@ -9,7 +9,7 @@ pub type Two {
 }
 
 pub fn print_info() {
-  printer.print_new(
+  printer.print(
     One(Two),
     "Runtime representations for One(Two); original, from, from/classify:",
   )
