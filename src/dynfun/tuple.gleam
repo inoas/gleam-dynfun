@@ -12,7 +12,7 @@ pub type LikeTwo {
 
 pub fn print_info() {
   io.debug(
-    "Runtime representations for #(One, Two); original, from, from/classifid:",
+    "Runtime representations for #(One, Two); original, from, from/classify:",
   )
 
   printer(#(One, Two))

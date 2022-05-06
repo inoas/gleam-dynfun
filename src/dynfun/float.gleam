@@ -7,7 +7,7 @@ pub fn print_info() {
 }
 
 pub fn print_int_1(value) {
-  io.debug("Runtime representations Int 1; original, from, from/classifid:")
+  io.debug("Runtime representations Int 1; original, from, from/classify:")
 
   value
   |> io.debug
@@ -23,7 +23,7 @@ pub fn print_int_1(value) {
 }
 
 pub fn print_float_1_dot_0(value) {
-  io.debug("Runtime representations Float 1.0; original, from, from/classifid:")
+  io.debug("Runtime representations Float 1.0; original, from, from/classify:")
 
   value
   |> io.debug
